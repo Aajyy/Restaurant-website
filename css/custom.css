@@ -757,7 +757,7 @@ header.main-header .header-sticky.active {
 
 .hero.hero-slider-layout .hero-slide {
 	position: relative;
-	background: url('../images/hero-bg.jpg');
+	background: url('../images/banner-1.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -765,7 +765,7 @@ header.main-header .header-sticky.active {
 }
 
 .hero.hero-slider-layout .hero-slide.slide-2 {
-	background: url('../images/hero-bg-2.jpg');
+	background: url('../images/1.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -1203,9 +1203,11 @@ header.main-header .header-sticky.active {
 }
 
 .our-dish-img figure {
-	max-width: 200px;
+	/* max-width: 200px; */
 	border-radius: 10%;
 	display: inline-block;
+	width: 300px !important;
+	
 }
 
 .our-dish-img img {
@@ -1213,6 +1215,8 @@ header.main-header .header-sticky.active {
 	aspect-ratio: 1 / 1;
 	object-fit: cover;
 	transition: all 0.3s ease-in-out;
+	width: 300px;
+		
 }
 
 .our-dish-item:hover .our-dish-img img {
@@ -2416,10 +2420,10 @@ header.main-header .header-sticky.active {
 
 .page-header {
 	position: relative;
-	background: url('../images/page-header-bg.jpg');
+	background: url('../images/About-Us-banner.png');
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-size: cover;
+	background-size: contain;
 	padding: 270px 0 155px;
 }
 
