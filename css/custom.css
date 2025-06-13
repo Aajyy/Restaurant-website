@@ -1207,7 +1207,7 @@ header.main-header .header-sticky.active {
 	border-radius: 10%;
 	display: inline-block;
 	width: 300px !important;
-	
+
 }
 
 .our-dish-img img {
@@ -1216,7 +1216,7 @@ header.main-header .header-sticky.active {
 	object-fit: cover;
 	transition: all 0.3s ease-in-out;
 	width: 300px;
-		
+
 }
 
 .our-dish-item:hover .our-dish-img img {
@@ -2417,15 +2417,6 @@ header.main-header .header-sticky.active {
 /************************************/
 /***	 15. About Us Page Css    ***/
 /************************************/
-
-.page-header {
-	position: relative;
-	background: url('../images/About-Us-banner.png');
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: contain;
-	padding: 270px 0 155px;
-}
 
 .page-header::before {
 	content: '';
@@ -4189,14 +4180,48 @@ our-faqs .approch-tab-image img {
 	margin-bottom: 20px;
 }
 
+
+html.cen-dc-mb header.main-header {
+	position: relative !important;
+}
+
+html.cen-dc-mb .page-header::before {
+	content: '';
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: var(--dark-divider-color);
+	opacity: 80%;
+}
+
+
 /************************************/
 /***      29. Responsive css      ***/
 /************************************/
 
 @media only screen and (max-width: 991px) {
 
+	header.main-header {
+		position: relative !important;
+	}
+
+	.page-header::before {
+		content: '';
+		position: relative;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: var(--dark-divider-color);
+		opacity: 80%;
+	}
+
+
+
 	.navbar {
-		padding: 20px 0;
+		padding: 10px 0;
 	}
 
 	.main-menu ul li.highlighted-menu {
@@ -4673,9 +4698,9 @@ our-faqs .approch-tab-image img {
 		font-size: 18px;
 	}
 
-	.page-header {
+	/* .page-header {
 		padding: 170px 0 80px;
-	}
+	} */
 
 	.page-header-box h1 {
 		font-size: 50px;
@@ -5787,12 +5812,14 @@ our-faqs .approch-tab-image img {
 		align-items: center;
 
 	}
+
 	.certifacate-image {
 		margin-bottom: 10px;
 		text-align: center;
 	}
-	.delivery-img{
-		margin-top:10px;
+
+	.delivery-img {
+		margin-top: 10px;
 	}
 }
 
@@ -5836,11 +5863,12 @@ our-faqs .approch-tab-image img {
 .contact-container {
 	display: flex;
 	align-items: center;
-	
+
 }
+
 .display-item {
 	display: flex;
-	gap: 10px ;
+	gap: 10px;
 }
 
 .contact-no a {
@@ -5848,8 +5876,9 @@ our-faqs .approch-tab-image img {
 	margin-left: 16px;
 	color: #fff !important;
 	font-weight: 700;
-	
+
 }
+
 .contact-no {
 	margin-top: 20px;
 }
@@ -5859,7 +5888,7 @@ our-faqs .approch-tab-image img {
 	height: 41px;
 	object-fit: contain;
 	color: #000;
-	
+
 }
 
 .circle-icon {
