@@ -1,0 +1,323 @@
+ {
+  "products": [
+    {
+      "productId": "P001",
+      "productName": "Butter Chicken",
+      "productImage": "images/chicken/butter-chicken.png",
+      "productAcPrice": 280,
+      "productNonAcPrice": 250,
+      "productDescription": "Creamy spiced tomato gravy with tender chicken pieces.",
+      "productCategory": "chicken"
+    },
+    {
+      "productId": "P002",
+      "productName": "Paneer Tikka",
+      "productImage": "images/paneer/paneer-tikka.png",
+      "productAcPrice": 220,
+      "productNonAcPrice": 200,
+      "productDescription": "Grilled marinated paneer with smoky flavors and spices.",
+      "productCategory": "paneer"
+    },
+    {
+      "productId": "P003",
+      "productName": "Tomato Soup",
+      "productImage": "images/soups/tomato-soup.png",
+      "productAcPrice": 120,
+      "productNonAcPrice": 100,
+      "productDescription": "",
+      "productCategory": "soup"
+    },
+   
+
+  {
+    "productId": "P001",
+    "productName": "Clear Soup (Veg)",
+    "productImage": "images/soup/clear-veg.png",
+    "productAcPrice": 100,
+    "productNonAcPrice": 100,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P002",
+    "productName": "Clear Soup (Chicken)",
+    "productImage": "images/soup/clear-chicken.png",
+    "productAcPrice": 100,
+    "productNonAcPrice": 100,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P003",
+    "productName": "Clear Soup (Mutton)",
+    "productImage": "images/soup/clear-mutton.png",
+    "productAcPrice": 120,
+    "productNonAcPrice": 120,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P004",
+    "productName": "Chicken Lung Fung Soup",
+    "productImage": "images/soup/lung-fung.png",
+    "productAcPrice": 150,
+    "productNonAcPrice": 150,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P005",
+    "productName": "Manchow Soup (Veg)",
+    "productImage": "images/soup/manchow-veg.png",
+    "productAcPrice": 130,
+    "productNonAcPrice": 130,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P006",
+    "productName": "Manchow Soup (Chicken)",
+    "productImage": "images/soup/manchow-chicken.png",
+    "productAcPrice": 140,
+    "productNonAcPrice": 140,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P007",
+    "productName": "Chicken Meat Ball",
+    "productImage": "images/soup/meat-ball.png",
+    "productAcPrice": 150,
+    "productNonAcPrice": 150,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P008",
+    "productName": "Noodles Soup (Veg)",
+    "productImage": "images/soup/noodles-veg.png",
+    "productAcPrice": 130,
+    "productNonAcPrice": 130,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P009",
+    "productName": "Noodles Soup (Chicken)",
+    "productImage": "images/soup/noodles-chicken.png",
+    "productAcPrice": 150,
+    "productNonAcPrice": 150,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P010",
+    "productName": "Sweet Corn Soup (Veg)",
+    "productImage": "images/soup/sweetcorn-veg.png",
+    "productAcPrice": 130,
+    "productNonAcPrice": 130,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P011",
+    "productName": "Sweet Corn Soup (Chicken)",
+    "productImage": "images/soup/sweetcorn-chicken.png",
+    "productAcPrice": 140,
+    "productNonAcPrice": 140,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P012",
+    "productName": "Supreme Special Soup (Veg)",
+    "productImage": "images/soup/supreme-veg.png",
+    "productAcPrice": 150,
+    "productNonAcPrice": 150,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P013",
+    "productName": "Supreme Special Soup (Chicken)",
+    "productImage": "images/soup/supreme-chicken.png",
+    "productAcPrice": 170,
+    "productNonAcPrice": 170,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P014",
+    "productName": "Hot & Sour Soup (Veg)",
+    "productImage": "images/soup/hot-sour-veg.png",
+    "productAcPrice": 120,
+    "productNonAcPrice": 120,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P015",
+    "productName": "Hot & Sour Soup (Chicken)",
+    "productImage": "images/soup/hot-sour-chicken.png",
+    "productAcPrice": 140,
+    "productNonAcPrice": 140,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P016",
+    "productName": "Tomato Soup",
+    "productImage": "images/soup/tomato.png",
+    "productAcPrice": 140,
+    "productNonAcPrice": 140,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P017",
+    "productName": "Tom Yum Soup (Veg)",
+    "productImage": "images/soup/tomyum-veg.png",
+    "productAcPrice": 120,
+    "productNonAcPrice": 120,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P018",
+    "productName": "Tom Yum Soup (Chicken)",
+    "productImage": "images/soup/tomyum-chicken.png",
+    "productAcPrice": 150,
+    "productNonAcPrice": 150,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P019",
+    "productName": "Wonton Soup (Veg)",
+    "productImage": "images/soup/wonton-veg.png",
+    "productAcPrice": 120,
+    "productNonAcPrice": 120,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P020",
+    "productName": "Wonton Soup (Chicken)",
+    "productImage": "images/soup/wonton-chicken.png",
+    "productAcPrice": 150,
+    "productNonAcPrice": 150,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P021",
+    "productName": "Red Curry (Thai) (Veg)",
+    "productImage": "images/soup/redcurry-veg.png",
+    "productAcPrice": 150,
+    "productNonAcPrice": 150,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P022",
+    "productName": "Red Curry (Thai) (Chicken)",
+    "productImage": "images/soup/redcurry-chicken.png",
+    "productAcPrice": 180,
+    "productNonAcPrice": 180,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P023",
+    "productName": "Green Curry (Thai) (Veg)",
+    "productImage": "images/soup/greencurry-veg.png",
+    "productAcPrice": 150,
+    "productNonAcPrice": 150,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P024",
+    "productName": "Green Curry (Thai) (Chicken)",
+    "productImage": "images/soup/greencurry-chicken.png",
+    "productAcPrice": 180,
+    "productNonAcPrice": 180,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+  {
+    "productId": "P025",
+    "productName": "Mutton Aab-E-Hayat Soup",
+    "productImage": "images/soup/aab-e-hayat.png",
+    "productAcPrice": 175,
+    "productNonAcPrice": 175,
+    "productDescription": "",
+    "productCategory": "Soup"
+  },
+
+
+    {
+      "productId": "P004",
+      "productName": "Gulab Jamun",
+      "productImage": "images/dessert/gulab-jamun.png",
+      "productAcPrice": 90,
+      "productNonAcPrice": 80,
+      "productDescription": "Soft dumplings made of milk solids soaked in rose-flavored syrup.",
+      "productCategory": "dessert"
+    },
+    {
+      "productId": "P005",
+      "productName": "Mutton Rogan Josh",
+      "productImage": "images/mutton/rogan-josh.png",
+      "productAcPrice": 320,
+      "productNonAcPrice": 290,
+      "productDescription": "Spicy, aromatic mutton curry cooked in traditional Kashmiri style.",
+      "productCategory": "mutton"
+    },
+    {
+      "productId": "P006",
+      "productName": "Sweet Corn Soup",
+      "productImage": "images/soups/sweet-corn.png",
+      "productAcPrice": 130,
+      "productNonAcPrice": 110,
+      "productDescription": "",
+      "productCategory": "soup"
+    },
+    {
+      "productId": "P007",
+      "productName": "Chicken Biryani",
+      "productImage": "images/chicken/chicken-biryani.png",
+      "productAcPrice": 260,
+      "productNonAcPrice": 230,
+      "productDescription": "Fragrant basmati rice cooked with spiced chicken and herbs.",
+      "productCategory": "chicken"
+    },
+    {
+      "productId": "P008",
+      "productName": "Shahi Paneer",
+      "productImage": "images/paneer/shahi-paneer.png",
+      "productAcPrice": 240,
+      "productNonAcPrice": 210,
+      "productDescription": "Paneer cubes cooked in rich creamy cashew and tomato gravy.",
+      "productCategory": "paneer"
+    },
+    {
+      "productId": "P009",
+      "productName": "Veg Manchurian",
+      "productImage": "images/chinese/veg-manchurian.png",
+      "productAcPrice": 200,
+      "productNonAcPrice": 180,
+      "productDescription": "Fried vegetable balls tossed in tangy Indo-Chinese sauce.",
+      "productCategory": "chinese"
+    },
+    {
+      "productId": "P010",
+      "productName": "Ice Cream Sundae",
+      "productImage": "images/dessert/ice-cream-sundae.png",
+      "productAcPrice": 110,
+      "productNonAcPrice": 100,
+      "productDescription": "Vanilla ice cream topped with chocolate syrup and nuts.",
+      "productCategory": "dessert"
+    }
+  ]
+}

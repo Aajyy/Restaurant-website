@@ -757,7 +757,7 @@ header.main-header .header-sticky.active {
 
 .hero.hero-slider-layout .hero-slide {
 	position: relative;
-	background: url('../images/banner-1.png');
+	background: url('../images/banner/home-banner-1.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -765,7 +765,7 @@ header.main-header .header-sticky.active {
 }
 
 .hero.hero-slider-layout .hero-slide.slide-2 {
-	background: url('../images/1.png');
+	background: url('../images/banner/home-banner-2.png');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -1574,7 +1574,7 @@ header.main-header .header-sticky.active {
 }
 
 .our-menu-image img {
-	width: 100%;
+	width: 65%;
 	border-radius: 50%;
 	aspect-ratio: 1 / 1;
 	object-fit: cover;
@@ -5842,7 +5842,12 @@ html.cen-dc-mb .page-header::before {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 16px;
+
 }
+.justify-center {
+justify-content: center;
+}
+
 
 .footer-col {
 	display: flex;
