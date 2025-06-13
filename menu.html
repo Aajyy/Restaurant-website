@@ -618,7 +618,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-9">
+                    <div class="col-lg-12">
                         <!-- Our Menu List Start -->
                         <div class="our-menu-list">
                             <!-- Our Menu Item Start -->
@@ -635,10 +635,24 @@
                                 <div class="menu-item-body">
                                     <!-- Menu Item Title Start -->
                                     <div class="menu-item-title">
-                                        <h3>grilled salmon</h3>
-                                        <hr>
-                                        <span>$12.99</span>
+                                        <h3>Grilled Salmon</h3>
+                                        <hr />
+                                        <div class="price-toggle price-tab-switch">
+                                            <div class="switch-tab">
+                                                <input type="radio" id="half1" name="salmon-toggle" value="half"
+                                                    onchange="togglePriceTab(this)">
+                                                <label for="half1">Half</label>
+
+                                                <input type="radio" id="full1" name="salmon-toggle" value="full" checked
+                                                    onchange="togglePriceTab(this)">
+                                                <label for="full1">Full</label>
+
+                                                <span class="tab-bg"></span>
+                                            </div>
+                                            <span class="price" data-half="6.50" data-full="12.99">$12.99</span>
+                                        </div>
                                     </div>
+
                                     <!-- Menu Item Title End -->
                                 </div>
                                 <!-- Menu Item Body End -->
@@ -659,10 +673,24 @@
                                 <div class="menu-item-body">
                                     <!-- Menu Item Title Start -->
                                     <div class="menu-item-title">
-                                        <h3>calamari rings</h3>
-                                        <hr>
-                                        <span>$05.00</span>
+                                        <h3>Calamari Rings</h3>
+                                        <hr />
+                                        <div class="price-toggle price-tab-switch">
+                                            <div class="switch-tab">
+                                                <input type="radio" id="half2" name="calamari-toggle" value="half"
+                                                    onchange="togglePriceTab(this)">
+                                                <label for="half2">Half</label>
+
+                                                <input type="radio" id="full2" name="calamari-toggle" value="full"
+                                                    checked onchange="togglePriceTab(this)">
+                                                <label for="full2">Full</label>
+
+                                                <span class="tab-bg"></span>
+                                            </div>
+                                            <span class="price" data-half="3.00" data-full="5.00">$5.00</span>
+                                        </div>
                                     </div>
+
                                     <!-- Menu Item Title End -->
 
 
@@ -687,7 +715,20 @@
                                     <div class="menu-item-title">
                                         <h3>shrimp masala</h3>
                                         <hr>
-                                        <span>$09.10</span>
+                                       <div class="price-toggle price-tab-switch">
+                                            <div class="switch-tab">
+                                                <input type="radio" id="half3" name="calamari-toggle" value="half"
+                                                    onchange="togglePriceTab(this)">
+                                                <label for="half3">Half</label>
+
+                                                <input type="radio" id="full3" name="calamari-toggle" value="full"
+                                                    checked onchange="togglePriceTab(this)">
+                                                <label for="full3">Full</label>
+
+                                                <span class="tab-bg"></span>
+                                            </div>
+                                            <span class="price" data-half="7.00" data-full="9.00">$9.00</span>
+                                        </div>
                                     </div>
                                     <!-- Menu Item Title End -->
 
@@ -1406,6 +1447,41 @@
     <script src="js/function.js"></script>
     <script src="js/common-header.js"></script>
     <script src="js/check-device.js"></script>
+
+    <script>
+        function togglePriceTab(radio) {
+            const wrapper = radio.closest('.price-toggle');
+            const priceSpan = wrapper.querySelector('.price');
+            const tab = wrapper.querySelector('.switch-tab');
+            const tabBg = tab.querySelector('.tab-bg');
+            const labels = tab.querySelectorAll('label');
+
+            // Remove previous active classes
+            labels.forEach(label => label.classList.remove('active'));
+
+            // Add active class to the clicked label
+            const selectedLabel = tab.querySelector(`label[for="${radio.id}"]`);
+            selectedLabel.classList.add('active');
+
+            // Move tab background
+            if (radio.value === 'half') {
+                tabBg.style.left = '4px';
+                priceSpan.textContent = `$${parseFloat(priceSpan.dataset.half).toFixed(2)}`;
+            } else {
+                tabBg.style.left = '42px';
+                priceSpan.textContent = `$${parseFloat(priceSpan.dataset.full).toFixed(2)}`;
+            }
+        }
+
+        // Init on load
+        window.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll('.price-toggle input[type="radio"]:checked').forEach(input => {
+                togglePriceTab(input);
+            });
+        });
+    </script>
+
+
 </body>
 
 
