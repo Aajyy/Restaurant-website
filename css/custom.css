@@ -904,7 +904,7 @@ header.main-header .header-sticky.active {
 
 .about-us {
 	position: relative;
-	padding: 100px 0;
+	padding: 60px 0;
 }
 
 /* .about-us::before{
@@ -1157,7 +1157,7 @@ header.main-header .header-sticky.active {
 .our-dishes {
 	position: relative;
 	background: var(--secondary-color);
-	padding: 100px 0;
+	padding: 60px 0;
 }
 
 /* .our-dishes::before {
@@ -1702,7 +1702,7 @@ header.main-header .header-sticky.active {
 
 .our-ingredients {
 	position: relative;
-	padding: 100px 0;
+	padding: 60px 0;
 }
 
 /* .our-ingredients::before{
@@ -2141,7 +2141,7 @@ header.main-header .header-sticky.active {
 
 .our-blog {
 	position: relative;
-	padding: 100px 0 70px;
+	padding: 60px 0 70px;
 }
 
 /* .our-blog::before{
@@ -2350,7 +2350,7 @@ header.main-header .header-sticky.active {
 }
 
 .footer-contact-item .icon-box img {
-	width: 100%;
+	/* width: 100%; */
 	max-width: 24px;
 }
 
@@ -2419,7 +2419,7 @@ header.main-header .header-sticky.active {
 /***	 15. About Us Page Css    ***/
 /************************************/
 
-.page-header::before {
+/* .page-header::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -2428,7 +2428,7 @@ header.main-header .header-sticky.active {
 	bottom: 0;
 	background: var(--dark-divider-color);
 	opacity: 80%;
-}
+} */
 
 .page-header-box {
 	position: relative;
@@ -2470,7 +2470,7 @@ header.main-header .header-sticky.active {
 .our-approach {
 	position: relative;
 	background: var(--secondary-color);
-	padding: 100px 0;
+	padding: 60px 0;
 }
 
 /* .our-approach::before {
@@ -2870,7 +2870,7 @@ our-faqs .approch-tab-image img {
 
 .page-services {
 	position: relative;
-	padding: 100px 0 70px;
+	padding: 60px 0 70px;
 }
 
 /* .page-services::before{
@@ -3219,7 +3219,7 @@ our-faqs .approch-tab-image img {
 /************************************/
 
 .page-menu {
-	padding: 100px 0;
+	padding: 60px 0;
 }
 
 .special-menu-list {
@@ -3272,7 +3272,7 @@ our-faqs .approch-tab-image img {
 }
 
 .our-food-menu .food-menu-item {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .our-food-menu .food-menu-item:nth-child(odd) {
@@ -5888,18 +5888,105 @@ html.cen-dc-mb .page-header::before {
 	.delivery-img {
 		margin-top: 10px;
 	}
+
 }
 
+html.cen-dc-mb .footer-col {
+	gap: 1px;
+    padding-top: 10px;
+	justify-content: center;
+
+}
+html.cen-dc-mb .display-item {
+	justify-content: center;
+	width: 70%;
+}
+
+/* menu section heading  */
+
+.menu-heading-tc{
+    text-align: center;
+    margin-bottom: 55px !important;
+}
+
+
+/* whatspp model  start */
+
+    /* WhatsApp icon style */
+    #whatsappIcon {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      cursor: pointer;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    /* Modal background */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.5);
+    }
+
+    /* Modal content */
+    .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto;
+      padding: 30px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 400px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    /* Close button */
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .close:hover {
+      color: black;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  
+/* whatsapp model  end */
 
 
 /* new  css footer */
 
 .certifacate-image {
-	width: 100%;
-	height: auto;
+	width: 100px;
+	height: 70px;
 	max-width: 100px;
 	margin: 10px auto;
-	object-fit: cover;
+	object-fit:cover;
 	margin: 0 6px;
 	border-radius: 6px;
 	border: 1px solid #b6b3b3;
@@ -5920,7 +6007,8 @@ html.cen-dc-mb .page-header::before {
 .footer-col {
 	display: flex;
 	justify-content: space-between;
-	gap: 10px;
+	gap: 45px;
+	padding-left: 0px;
 }
 
 .delivery-img {
